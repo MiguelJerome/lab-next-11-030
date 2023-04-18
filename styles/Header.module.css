@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}
+
+.titre {
+    margin: 0;
+    padding: 1rem;
+}
+
+.logo {
+    width: 4rem;
+    height: auto;
+}
+
+@media(min-width: 40rem) {
+    .header {
+        flex-direction: row;
+    }
+}

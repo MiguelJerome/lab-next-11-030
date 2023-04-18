@@ -1,0 +1,18 @@
+.layout[data-theme=light] {
+    --header-bg-color: #74d5ff;
+    --header-text-color: #000;
+    --page-bg-color: #fff;
+    --page-text-color: #000;
+}
+
+.layout[data-theme=dark] {
+    --header-bg-color: #305c6f;
+    --header-text-color: #fff;
+    --page-bg-color: #272729;
+    --page-text-color: #fff;
+}
+
+.layout {
+    background-color: var(--page-bg-color);
+    color: var(--page-text-color)
+}

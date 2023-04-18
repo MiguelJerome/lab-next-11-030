@@ -1,0 +1,13 @@
+.demande {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #000;
+    background-color: #a7fde1;
+}
+
+.contenu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

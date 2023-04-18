@@ -1,0 +1,16 @@
+.compteur {
+    display: flex;
+    flex-direction: column;
+    max-width: 10rem;
+    margin: 1rem;
+}
+
+.nombre {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bouton {
+    padding: .5rem;
+}
